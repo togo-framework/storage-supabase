@@ -1,6 +1,6 @@
 # storage-supabase — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Supabase Storage driver for togo
 
 ## Overview
 
@@ -18,14 +18,13 @@ Set `STORAGE_DRIVER=supabase`.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `G` | _see provider docs_ |
-| `SUPABASE_SERVICE_KEY` | _see provider docs_ |
-| `SUPABASE_STORAGE_BUCKET` | _see provider docs_ |
-| `SUPABASE_URL` | _see provider docs_ |
+| Env var |
+|---|
+| `SUPABASE_SERVICE_KEY"` |
+| `SUPABASE_STORAGE_BUCKET"` |
+| `SUPABASE_URL"` |
 
 ## Usage
 
@@ -40,4 +39,4 @@ url := st.Path("path/file.txt")
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/storage-supabase
-- README: ../README.md
+- Full README: ../README.md
