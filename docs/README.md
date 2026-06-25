@@ -22,9 +22,9 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `SUPABASE_SERVICE_KEY"` |
-| `SUPABASE_STORAGE_BUCKET"` |
-| `SUPABASE_URL"` |
+| `SUPABASE_SERVICE_KEY` |
+| `SUPABASE_STORAGE_BUCKET` |
+| `SUPABASE_URL` |
 
 ## Usage
 
